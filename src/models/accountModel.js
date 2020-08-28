@@ -3,19 +3,19 @@ import mongoose from 'mongoose';
 const accountSchema = mongoose.Schema({
   branchCode: {
     type: Number,
-    require: true,
+    required: true,
   },
   accountNumber: {
     type: Number,
-    require: true,
+    required: true,
   },
   accountHolder: {
     type: String,
-    require: true,
+    required: true,
   },
   balance: {
     type: Number,
-    require: true,
+    required: true,
   },
 });
 
